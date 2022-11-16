@@ -1,0 +1,11 @@
+public class sample {
+    public static void main(String args[]) {
+        System.out.println("this is main class");
+    sample23 obj=new sample23();// creation of object --new kyword and constructor
+        obj.print();//accessing method
+        obj.id=234;//accessing varible
+        System.out.println("---------------------------");
+       obj.print();
+
+    }
+}
